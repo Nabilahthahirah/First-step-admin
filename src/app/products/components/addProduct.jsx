@@ -121,7 +121,7 @@ export default function AddProduct({ refreshProducts }) {
       formData.append("category_id", category);
       formData.append("warehouse_id", warehouse);
   
-      const responseData = await fetch(`${BASE_URL}/products`, {
+      const responseData = await fetch(`${BASE_URL}/products/admin`, {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`,
