@@ -65,18 +65,6 @@ export default function ProductPage() {
                   <td className="py-2 px-4 border">{product.product_detail[0].stock}</td>
                   <td className="py-2 px-4 border">{product.product_detail[0].price}</td>
                   <td className="py-2 px-4 border">{product.product_detail[0].weight}</td>
-                  <td className="py-2 px-4 border">
-                    {product.product_detail[0].color}
-                  </td>
-                  <td className="py-2 px-4 border">
-                    {product.product_detail[0].stock}
-                  </td>
-                  <td className="py-2 px-4 border">
-                    {product.product_detail[0].price}
-                  </td>
-                  <td className="py-2 px-4 border">
-                    {product.product_detail[0].weight}
-                  </td>
                   <td className="py-2 px-4 border text-center">
                     <img
                       src={product.product_detail[0].photo || null}
